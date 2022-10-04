@@ -1,0 +1,61 @@
+/* CSS para INDEX (homepage) */
+div{
+    text-align: center;
+}
+header{
+    background-color: rgb(102,187,34);
+    padding: 15px;
+}
+ul{
+    display: flex;
+}
+li{
+    flex: 1;
+    list-style-type: none;
+    font-size: 25px;
+    color: black;
+}
+li:hover{
+    color: white;
+    transition-duration: 0.5s;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+    transition-duration: 0.5s;
+}
+section{
+    display: flex;
+}
+article{
+    flex: 1;
+}
+figcaption{
+    font-size: large;
+    font-weight: bold;
+}
+#imgCarrinho{
+    width: 20px;
+}
+#botaoCompra{
+    border: 1px black solid;
+    background-color: rgb(102,187,34);
+    color: white;
+}
+/* CSS para FORMULÀRIO PARA CONTATO*/
+/*#mainFormpage{
+    
+}*/
+#formContato{
+    width: 40%;
+    text-align: center;
+}
+#formContato input {
+    width: 100%;
+}
+#formContato textarea {
+    width: 100%;
+}
