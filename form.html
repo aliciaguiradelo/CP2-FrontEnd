@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIO DE CONTATO</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <div>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">CAMISAS</a></li>
+                    <li>BERMUDAS</li>
+                    <li>CALÇAS</li>
+                    <li><a href="form.html">CONTATO<a/></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form method="get" action="cadastrar.php" id="formContato">
+                <fieldset>
+                    <legend>FORMULÁRIO DE CONTATO</legend>
+                    <label for="idNome">NOME</label>
+                    <input type="text" id="idNome" name="idNome" class="inputConfig"><br/>
+                    <label for="idSobrenome">SOBRENOME</label>
+                    <input type="text" id="idSobrenome" name="idSobrenome" class="inputConfig"><br/>
+                    <label for="idDescricao">DESCRIÇÃO</label>
+                    <input type="textarea"  cols="30" rows="100" id="idDescricao" name="idDescricao" class="inputConfig"><br/>
+                    <input type="submit" value="ENVIAR" id="botEnviar">
+                </fieldset>
+            </form>
+        </main>
+    </div>
+</body>
+</html>
